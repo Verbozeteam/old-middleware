@@ -1,0 +1,6 @@
+#!/bin/sh
+cd /home/pi/RaspberryPi/
+
+echo "Running server..."
+python MidServer.py > log &
+python KitchenServer.py > kitchen_log &

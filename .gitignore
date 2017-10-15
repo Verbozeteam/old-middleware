@@ -1,0 +1,4 @@
+kitchen_log
+log
+*.pyc
+
